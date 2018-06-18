@@ -92,12 +92,7 @@ body>div>section{
     font-family: 'Handlee', cursive;
 }
 
-footer a{
-    display:none;
-}
-
 input[type="submit"]{
-
     text-align: center;
     text-decoration: none;
     background-color: #952C2A;
@@ -149,6 +144,7 @@ section h1{
         margin-left: 10%;
         margin-right: 10%;
         font-size: 36px;
+        background-color: burlywood;
     }
 
     #recensione{
@@ -180,6 +176,7 @@ section h1{
         margin-left: 10%;
         margin-right: 10%;
         font-size: 22px;
+        background-color: burlywood;
     }
 
     body{
@@ -198,3 +195,6 @@ section h1{
 
 }
 
+body>div>section{
+    background-color: burlywood;
+}
