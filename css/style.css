@@ -92,6 +92,51 @@ body>div>section{
     font-family: 'Handlee', cursive;
 }
 
+footer a{
+    display:none;
+}
+
+input[type="submit"]{
+
+    text-align: center;
+    text-decoration: none;
+    background-color: #952C2A;
+    padding: 5px;
+    border-radius: 4px;
+    color: white; 
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+
+input{
+    text-align: center;
+    margin: 0px auto;
+}
+
+section{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body>div>section{
+    background-color: white;
+}
+
+section h1{
+    text-shadow: 2px 0px 10px #952C2A;
+}
+
+#recensione{
+    width: 500px;
+    height: 500px;
+}
+
+#desiderio{
+    width: 500px;
+    height: 500px;
+}
+
 @media screen and (max-width: 1024px) {
     
     nav>ul{
@@ -104,6 +149,16 @@ body>div>section{
         margin-left: 10%;
         margin-right: 10%;
         font-size: 36px;
+    }
+
+    #recensione{
+        width: 470px;
+        height: 470px;
+    }
+    
+    #desiderio{
+        width: 470px;
+        height: 470px;
     }
 
 }
@@ -129,6 +184,16 @@ body>div>section{
 
     body{
         background-color: white;
+    }
+
+    #recensione{
+        width: 150px;
+        height: 150px;
+    }
+    
+    #desiderio{
+        width: 150px;
+        height: 150px;
     }
 
 }
