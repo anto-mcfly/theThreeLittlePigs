@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Poor+Story');
+
+body{
+    background-color: lemonchiffon;
+    font-family: 'Poor Story', cursive;
+    margin: 0px;
+}
+
+body>div{
+    width: 80%;
+    background-color: white;
+    border: 3px solid gold;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+nav>ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 42px;
+    font-weight: bold;
+    background-color: #952C2A;
+}
+
+li{
+    list-style-type: none; 
+    margin: 0px 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover, footer a:hover{
+    color: peachpuff;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    background-color: #952C2A;
+    padding: 5px;
+    border-radius: 4px;
+    color: white; 
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+input{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 150px;
+    margin-top:12px;
+}
+
+body>div>section{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: burlywood;
+    font-family: 'Handlee', cursive;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    nav>ul{
+        font-weight: normal;
+        font-size: 36px;
+    }
+
+    body>div>section{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width: 662px) {
+
+    nav>ul{
+        font-weight: normal;
+        font-size: 22px;
+    }
+    
+    body>div{
+        width: 100%;
+        border: none;
+    }
+
+    body>div>section{
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 22px;
+    }
+
+    body{
+        background-color: white;
+    }
+
+}
+
