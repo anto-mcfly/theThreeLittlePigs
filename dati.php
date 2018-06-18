@@ -1,8 +1,8 @@
 <?php
 
     $host = "localhost";
-    $user = "root";
-    $pass = "";
+    $user = "porcellino";
+    $pass = "il@terzo@porcellino@1995";
     $name = 'ttlp';
 
     // open MySql connection

@@ -22,7 +22,7 @@
 
             <?php 
                 
-                include("portions\menu.htm");
+                include("portions/menu.htm");
 
                 include("dati.php");
 
@@ -30,7 +30,7 @@
 
                 if( empty($menu) == 0){
 
-                    echo " <section> <h1>Menu' del giorno</h1> ";
+                    echo " <section> <h1>Menu' di ieri</h1> ";
 
                     $query = $db->query("SELECT * FROM menu WHERE id=2");
 
@@ -68,7 +68,7 @@
         </body>
 
         <footer>
-            <?php include("portions\pooter.htm");?>
+            <?php include("portions/pooter.htm");?>
         </footer>
 
     </div>    

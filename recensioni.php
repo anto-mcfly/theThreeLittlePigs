@@ -24,7 +24,7 @@
 
                 include("dati.php");
                 
-                include("portions\menu.htm");
+                include("portions/menu.htm");
 
                 $button = $_POST['recensisci'];
                 $nome = $_POST["nome"];
@@ -74,7 +74,7 @@
         </body>
 
         <footer>
-            <?php include("portions\pooter.htm");?>
+            <?php include("portions/pooter.htm");?>
         </footer>
 
     </div>    
